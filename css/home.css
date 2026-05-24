@@ -1,0 +1,27 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 112px 160px 42px;
+}
+
+.home-content h1 {
+  margin: 18px 0 82px;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}

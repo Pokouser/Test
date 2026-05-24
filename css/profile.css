@@ -1,0 +1,68 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 52px 150px 0;
+}
+
+.profile-top {
+  display: flex;
+  gap: 124px;
+  align-items: flex-start;
+}
+
+.profile-photo {
+  width: 397px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.bio-card {
+  width: 1178px;
+  min-height: 318px;
+  padding: 44px 48px;
+  border-radius: 16px;
+  background: var(--card);
+}
+
+.bio-card p {
+  margin: 0;
+  font-family: "Poiret One", "Segoe UI", sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.profile-actions {
+  display: flex;
+  justify-content: center;
+  gap: 236px;
+  margin: 58px 0 126px;
+}
+
+.profile-actions .action-button {
+  width: 204px;
+  height: 70px;
+  font-size: 58px;
+}
+
+.like-button {
+  color: var(--icon);
+  font-size: 64px;
+}
+
+.profile-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  width: 1388px;
+  margin: 0 auto;
+}
