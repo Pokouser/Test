@@ -7,7 +7,7 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 52px 150px 0;
+  padding: 36px 150px 0;
 }
 
 .profile-top {
@@ -17,16 +17,16 @@
 }
 
 .profile-photo {
-  width: 397px;
-  height: 440px;
+  width: 350px;
+  height: 390px;
   object-fit: cover;
   border-radius: 14px;
 }
 
 .bio-card {
   width: 1178px;
-  min-height: 318px;
-  padding: 44px 48px;
+  min-height: 250px;
+  padding: 38px 48px;
   border-radius: 16px;
   background: var(--card);
 }
@@ -34,9 +34,9 @@
 .bio-card p {
   margin: 0;
   font-family: "Poiret One", "Segoe UI", sans-serif;
-  font-size: 43px;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 1.32;
+  line-height: 1.24;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -45,13 +45,13 @@
   display: flex;
   justify-content: center;
   gap: 236px;
-  margin: 58px 0 126px;
+  margin: 34px 0 42px;
 }
 
 .profile-actions .action-button {
-  width: 204px;
-  height: 70px;
-  font-size: 58px;
+  width: 180px;
+  height: 64px;
+  font-size: 52px;
 }
 
 .like-button {
@@ -62,7 +62,21 @@
 .profile-articles {
   display: flex;
   flex-direction: column;
-  gap: 62px;
-  width: 1388px;
+  gap: 20px;
+  width: 1320px;
   margin: 0 auto;
+}
+
+.profile-articles .quote-card {
+  min-height: 164px;
+  padding: 13px 42px;
+}
+
+.profile-articles .quote-text {
+  font-size: 34px;
+  line-height: 1.12;
+}
+
+.profile-articles .quote-author {
+  font-size: 30px;
 }

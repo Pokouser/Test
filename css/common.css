@@ -180,3 +180,148 @@ button {
   line-height: 1;
   text-transform: uppercase;
 }
+
+.site-footer {
+  position: relative;
+  width: var(--page-width);
+  height: 416px;
+  overflow: hidden;
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(rgba(132, 103, 83, 0.34), rgba(132, 103, 83, 0.34)),
+    url("../assets/background.svg");
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 1920px 1080px;
+  border-top: 3px solid var(--deep-ink);
+}
+
+.footer-ornament {
+  width: 100%;
+  height: 25px;
+  background:
+    radial-gradient(circle at 9px 9px, transparent 0 4px, var(--lace) 4.5px 5.5px, transparent 6px),
+    radial-gradient(circle at 19px 9px, transparent 0 4px, var(--lace) 4.5px 5.5px, transparent 6px),
+    linear-gradient(var(--lace), var(--lace));
+  background-size: 28px 18px, 28px 18px, 100% 2px;
+  background-position: 0 0, 14px 0, 0 8px;
+  background-repeat: repeat-x, repeat-x, no-repeat;
+  opacity: 0.8;
+}
+
+.footer-content {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 25px);
+}
+
+.footer-brand {
+  position: absolute;
+  top: 43px;
+  left: 190px;
+  width: 620px;
+}
+
+.footer-brand h2 {
+  margin: 0 0 22px;
+  font-family: "Great Vibes", "Bad Script", cursive;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.footer-brand p,
+.footer-bottom p:last-child {
+  margin: 0;
+  font-family: "Bad Script", "Segoe Print", cursive;
+  font-size: 25px;
+  line-height: 1.65;
+}
+
+.footer-column {
+  position: absolute;
+  top: 46px;
+}
+
+.footer-sections {
+  left: 855px;
+  width: 280px;
+}
+
+.footer-authors {
+  left: 1170px;
+  width: 185px;
+}
+
+.footer-contact {
+  left: 1485px;
+  width: 320px;
+}
+
+.footer-column h3 {
+  margin: 0 0 34px;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.footer-column a,
+.footer-column p {
+  display: block;
+  margin: 0 0 6px;
+  color: var(--ink);
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.02;
+  text-decoration: none;
+}
+
+.footer-contact a:not(.footer-vk) {
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+.footer-column a.footer-vk {
+  width: 44px;
+  height: 44px;
+  background-image: url("../assets/vk.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-size: 0;
+  opacity: 0.72;
+}
+
+.footer-vk::before {
+  content: none;
+}
+
+.footer-bottom {
+  position: absolute;
+  left: 710px;
+  bottom: 22px;
+  width: 530px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom p:first-child {
+  margin-bottom: 12px;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.footer-bottom p:last-child {
+  font-size: 28px;
+  line-height: 1.25;
+}
